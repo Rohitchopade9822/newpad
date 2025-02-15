@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(54, 146, 146);
+} 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 35px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.container h1 img{
+    width: 60px;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.input-box{
+    width: 100%;
+    max-width: 50%; /* Fix max-width to 100% */
+    min-height: 150px; /* Make the height more reasonable */
+    background: #100808;
+    color: rgb(240, 230, 230); /* Change text color to black for better visibility */
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #faf1f1; /* Add a light border for visibility */
+    position: relative;
+}
+.btn.Delete {
+    position: relative;
+    top: 5px; /* Adjust to get closer to the top */
+    right: 5px; /* Adjust to get closer to the right */
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
